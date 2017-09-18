@@ -1,0 +1,69 @@
+<div>
+  <div class="about-envelope" data-dojo-attach-point="envelopeNode">
+    <div class="about-container" data-dojo-attach-point="splashContainerNode">
+      <div class="about-content" data-dojo-attach-point="customContentNode" data-dojo-attach-point="notFound">
+	  <img id="loadingImg" src="widgets/Track/images/loading.gif"   data-dojo-attach-point="loadingImg" ></img>
+	  <table>
+		 <tr>
+         <td >
+            Plat
+         </td>
+         <td>
+          <input type="text"  data-dojo-attach-point="platID" name="platID" value="" data-dojo-type="dijit/form/ComboBox" >
+		 
+		   <div data-dojo-attach-point="mapIdNode"></div>
+         </td>
+		  </tr>
+		 <tr>
+         <td >
+            Start
+         </td>
+         <td>
+            <input type="date" data-dojo-type="dijit/form/DateTextBox"   data-dojo-attach-point="start"  value="2017-08-22"/> 
+         </td>
+		  <td>
+            <input type="text" data-dojo-type="dijit/form/TimeTextBox"   data-dojo-attach-point="startTime" value=""/> 
+         </td>
+      </tr>
+	  
+	    <tr>
+         <td >
+            End
+         </td>
+         <td>
+            <input type="date"  data-dojo-type="dijit/form/DateTextBox"  data-dojo-attach-point="end" value="2017-08-22" /> 
+         </td>
+		 <td>
+            <input type="text"   data-dojo-type="dijit/form/TimeTextBox" data-dojo-attach-point="endTime" value="" /> 
+         </td>
+      </tr>
+		
+      
+	  
+	   <tr>
+         <td>
+            <a class="jimu-btn showpotensipelanggan"
+               href="javascript:void(0)"
+			  
+               data-dojo-attach-point="showButtonStart"
+               data-dojo-attach-event="onClick: showClicked"
+               >Tampilkan
+            </a>
+         </td>
+        <td>
+            <a class="jimu-btn showpotensipelanggan"
+               href="javascript:void(0)"
+			
+               data-dojo-attach-point="showButtonStop"
+               data-dojo-attach-event="onClick: stopClicked"
+               >Stop
+            </a>
+         </td>
+         
+      </tr>
+	  </table>
+	  
+	  </div>
+    </div>
+  </div>
+</div>

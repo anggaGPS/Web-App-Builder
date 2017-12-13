@@ -17,27 +17,14 @@ this widget will find athe data, animate point, and make some line from that poi
 3. Config your Widget with the Parameter based on your Field
 
 Example:
-	{
-  "url": "http://gis-geo.udata.id/geoevent/rest/services/SIIS_Geoevent/barstow_history_new/FeatureServer/0",
-  "idUrl": "http://gis-geo.udata.id/geoevent/rest/services/SIIS_Geoevent/Barstow_Update/FeatureServer/0",
-  "QueryData": {
-    "field": {
-      "plate": "license_plate",
-	  "longitude": "longitude",
-	  "latitude": "latitude",
-	  "timestring": "gpstime"
-    },
-    "QueryTime": {
-      "timeDate":"receive_time"
-    }
-    
-  },
- 
-  "QuerySelected": {
-    "plate": "license_plate"
-  }
-}
-}
+
+	"widgets": [  
+        {
+            "uri": "widgets/SaveSession/Widget"
+        }
+    	...
+    ]
+
 
 NB : plate is the Uniqe Field to identify your Fleet Assets. It must unique
 

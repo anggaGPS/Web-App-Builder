@@ -1,5 +1,5 @@
 
-# E Print widget Web App Builder
+# Find Potential Demand Using Propagation Clustering Algorithm in Javascript
 This widget is Analysis using arcgis javascirpt geometry API. 
 
 

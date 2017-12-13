@@ -14,4 +14,5 @@ this widget is for analysis costumer potential by spatial query from demand data
 1. Selection among Exisitng Costumer that has been use the that Companies Product using Difference Diagram.
 2. Find the nerarest from the result in number one to Distrubution Point with Buffer constraint (parameter).
 3. find the best 3 form the result number 2. Which 3 best Distribution Point that nearest from Demand/Costumer Potential.
+4. The best one is the green one, then yellow, and the third is red
 

@@ -18,15 +18,30 @@ this widget will find athe data, animate point, and make some line from that poi
 
 Example:
 
-	"widgets": [  
+	
         {
-            "uri": "widgets/SaveSession/Widget"
-        }
-    	...
-    ]
+           "url": "http://gis-geo.udata.id/geoevent/rest/services/SIIS_Geoevent/barstow_history_new/FeatureServer/0", 
+	   "idUrl": "http://gis-geo.udata.id/geoevent/rest/services/SIIS_Geoevent/Barstow_Update/FeatureServer/0",
+	   "QueryData": {
+	   	"field": {
+     	 		"plate": "license_plate",
+	  		"longitude": "longitude",
+	  		"latitude": "latitude",
+	  		"timestring": "gpstime"
+    			},
+	"QueryTime": {
+      		"timeDate":"receive_time"
+    			}
+      		     },
+       "QuerySelected": {
+       		"plate": "license_plate"
+       		}    
+       }
+   
+    
 
 
-NB : plate is the Uniqe Field to identify your Fleet Assets. It must unique
+	NB : plate is the Uniqe Field to identify your Fleet Assets. It must unique
 
 5. Run your Widget
 

@@ -24,7 +24,7 @@ Example:
 	   "idUrl": "http://gis-geo.udata.id/geoevent/rest/services/SIIS_Geoevent/Barstow_Update/FeatureServer/0",
 	   "QueryData": {
 	   	"field": {
-     	 		"plate": "license_plate",
+     	 	"plate": "license_plate",
 	  		"longitude": "longitude",
 	  		"latitude": "latitude",
 	  		"timestring": "gpstime"

@@ -1,0 +1,12 @@
+{
+  "name": "Picture",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.4",
+  "wabVersion": "2.4",
+  "author": "Esri Indonesia Angga",
+  "description": "This is the custom widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

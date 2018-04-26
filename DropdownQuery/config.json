@@ -1,0 +1,19 @@
+{
+ 
+  "QueryData": {
+    "field": {
+      "provinsi": "provinsi",
+	  "kab_kota": "kab_kota"
+	
+    }
+    
+  },
+ 
+  
+  
+  "urlID":  [
+	{ "url": "https://portal-gis.dephub.go.id/server/rest/services/TersusTUKS/TersusTUKS/FeatureServer/0", "name": "TUKS" },
+	{ "url": "https://portal-gis.dephub.go.id/server/rest/services/Hosted/Tersus180917/FeatureServer/0", "name": "TESRSUS" }
+	]
+	
+}

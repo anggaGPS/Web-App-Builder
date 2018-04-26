@@ -6,7 +6,10 @@ This widget is enhancement from Printing Widget which printing the attributes an
 ![App](https://raw.github.com/Esri/map-gallery-template-js/master/Resources/item.png)
 
 ## Features
-this widget will print the attribute and the map in one layout with event 'Click' on demand.
+this widget will print the attribute, attchment such as picture and the map in one layout with event 'Click' on demand. Just click the parcel or location that wanted and print.
+The layout could changed dynamically using arcmap (desktop app). If the lay out change using arcmap, the layout in the web also changed.
+
+This project was on behalf with Depok City Tax Agency to mapping the parcel in city depok to facilitating monitoring and increase the city revenue on tax field.
 
 ## Instructions
 

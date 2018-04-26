@@ -7,7 +7,9 @@ This widget is Analysis using arcgis javascirpt geometry API.
 ![App](https://github.com/anggaGPS/Web-App-Builder/blob/master/PotensiPelangganTelkom.JPG)
 
 ## Features
-this widget is for analysis costumer potential by spatial query from demand data then find the best path and distance to Distribution Point (Telecommunitaion Networking) using Propagation Clustering Algorithm
+this widget is for analysis costumer potential by spatial query from demand data then find the best path and distance to Distribution Point (Telecommunitaion Networking) using Propagation Clustering Algorithm.
+
+This project was in behalf with Telkom Indonesia to find the potential costumer to make a marketing activities and find the best path or best location to migrate tradtional distribution point (DP) to optical distribution point (ODP) on the fly in web application using web app builder.
 
 
 ## Formula

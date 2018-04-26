@@ -6,7 +6,9 @@ This widget is find the Histriycal Tracking from the fleet management.
 ![App](https://github.com/anggaGPS/Web-App-Builder/blob/master/1.JPG)
 
 ## Features
-this widget will find athe data, animate point, and make some line from that point to track between certain time and certaint attribute
+this widget will find athe data, animate point, and make some line from that point to track between certain time and certaint attribute. This widget can find the movement in certain or all of time and visualize in the animation to deterimine location which has been passed.
+
+This project was on behalf with Telkom Indonesia to track historical for their operational car, sales, and other assets to find ROI and their KPI activities.
 
 ## Deploying
 1. Download this widget and put in Web App Builder Developer Directory  ...webappbuilderdirectory\client\stemapp\widgets\ 

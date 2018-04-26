@@ -4,6 +4,7 @@ This widget is enhancement from Printing Widget which printing the attributes an
 
 
 ![App](https://raw.github.com/Esri/map-gallery-template-js/master/Resources/item.png)
+![App](https://github.com/anggaGPS/Web-App-Builder/blob/master/pdfprint.JPG)
 
 ## Features
 this widget will print the attribute, attchment such as picture and the map in one layout with event 'Click' on demand. Just click the parcel or location that wanted and print.

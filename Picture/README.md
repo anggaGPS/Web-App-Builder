@@ -1,5 +1,5 @@
 
-# Display attaachment in wep app builder for arcgis
+# Display attaachment in web app builder for arcgis
 
 
 
